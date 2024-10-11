@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --reference=/tmp/hello school
+chgrp --reference=hello school
