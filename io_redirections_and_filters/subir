@@ -1,0 +1,6 @@
+#!/bin/bash 
+chmod +x *
+git add . 
+read -p "Introduce el mensaje del commit: " commit_message
+git commit -m "$commit_message"
+git push
