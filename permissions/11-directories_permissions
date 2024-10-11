@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +111 find . type -d
+find . -type d -exec chmod -R +111
