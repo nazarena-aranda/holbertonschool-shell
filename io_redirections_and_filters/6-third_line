@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n '' filename | grep '^3:'
+head -n 3 iacta
